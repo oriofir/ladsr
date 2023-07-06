@@ -7,6 +7,9 @@ function App() {
       <div className="comingSoon">SITE COMING SOON...</div>
       <div className="outerContainer">
         <img src={logo} className="logoImage" alt="logo" />
+        <a href="https://example.com" class="kickstarterButton">
+          KICKSTARTER
+        </a>
       </div>
     </>
   );
