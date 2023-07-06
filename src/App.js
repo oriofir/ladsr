@@ -4,10 +4,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>
-        <header>
-          <img src={logo} className="NormalCharacterStyle" alt="logo" />
-        </header>
+      <div className="comingSoon">SITE COMING SOON...</div>
+      <div className="outerContainer">
+        <img src={logo} className="logoImage" alt="logo" />
       </div>
     </>
   );
