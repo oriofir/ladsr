@@ -52,6 +52,7 @@
 }
 
 .kickstarterButton:hover {
+  border: 2px solid transparent;
   background-color: var(--primary);
   color: var(--type);
   border-color: var(--type);
