@@ -1,3 +1,8 @@
+:root {
+  --primary:#f1c103;
+  --background: #414141;
+}
+
 
 * {
   margin: 0;
@@ -16,16 +21,58 @@ video {
   object-fit: cover;
 }
 
-.content, .logoImage {
+ .logoImage {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 0vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color-interpolation-filters: #f1c103;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  
 }
 
+.content {
+  position: absolute;
+   width: 100%; 
+  height: 100%;
+  top: 25vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  color: var(--primary);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3) ;
+}
+
+.welcomeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--primary);
+  font-size: large;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid var(--primary); 
+  width: 250px;
+  height: 7ch;
+}
+
+.welcomeButton:hover {
+  border: 2px solid transparent;
+  background-color: var(--primary);
+  color: var(--background);
+  border-color: var(--primary);
+}
 
