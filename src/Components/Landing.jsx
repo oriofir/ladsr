@@ -10,7 +10,7 @@ const Landing = () => {
     <video src={ModularVid} autoPlay loop muted />
     <img src={logo} className="logoImage" alt="logo" />
     <div className="content">
-      <Link to="/home">
+      <Link to="/home" className="button-class">
       <button className="welcomeButton">WELCOME</button>
       </Link>
     </div>
