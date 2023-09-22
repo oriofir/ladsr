@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: var(--background);
 }
 
 .main {
@@ -86,3 +87,19 @@ a.button-class {
   
 }
 
+.logoImageHome {
+  width: 200px;
+  height: 200px;
+}
+
+/* .homeContainer {
+  /* background-color: var(--background); */
+  /* display: flex; */
+  /* justify-content:center 
+} */
+
+.Navbar {
+  color: var(--primary);
+  text-decoration: none;
+  
+}
