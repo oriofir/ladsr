@@ -8,57 +8,58 @@
   margin: 0;
   padding: 0;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: var(--background);
+  /* background-color: var(--background); */
 }
 
 .main {
-  width: 100%;
-  height: 100vh;
-}
-
-/* video {
  
-  
-} */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: -75px;
+}
 
  .logoImage {
   
   width: 100%;
   height: 100%;
-  
+  padding: 10px;
   /* justify-content: center; */
   /* align-items: center; */
   
 }
 
 .synthVid {
-  /* min-width: 100%; */
-  /* min-height: 100%; */
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
   width: 100%;
-  height: 100%;
+   /* height: 100%; */
   object-fit: cover;
 }
 
-.content {
-  position: absolute;
-   width: 100%; 
-  height: 100%;
-  top: 25vh; 
-  display: flex;
+.buttonContainer {
+   padding-bottom: 50px;
+   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  color: var(--primary);
+  color: var(--primary); 
 }
+ 
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .4) ;
-}
+
+
+
+
+  /* background-color: rgba(0, 0, 0, .4) ; */
+
 
 .welcomeButton {
   display: flex;

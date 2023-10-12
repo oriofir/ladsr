@@ -6,15 +6,18 @@ import logo from "../assets/LADSR_LOGO_ROC_HORZ_YELLOW.png";
 
 const Landing = () => {
   return (
-    <div className="main">
+    <>
       <div className="overlay"></div>
       <video src={ModularVid} className="synthVid" autoPlay loop muted></video>
-      <img src={logo} className="logoImage" alt="logo" />
-
-      <Link to="/home" className="button-class">
-        <button className="welcomeButton">WELCOME</button>
-      </Link>
-    </div>
+      <div className="main">
+        <img src={logo} className="logoImage" alt="logo" />
+        <div className="buttonContainer">
+          <Link to="/home" className="button-class">
+            <button className="welcomeButton">WELCOME</button>
+          </Link>
+        </div>
+      </div>
+    </>
   );
 };
 
